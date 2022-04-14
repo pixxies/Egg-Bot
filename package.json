@@ -1,0 +1,20 @@
+{
+    "name": "Egg Basket",
+    "description": "Egg hunt bot",
+    "version": "0.1",
+    "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "dependencies": {
+        "discord.js": "*",
+        "@discordjs/rest": "*",
+        "dotenv": "^16.0.0",
+        "pg": "*",
+        "fs": "*",
+        "node-env": "*"
+    },
+    "engines": {
+        "node": "16.x"
+    }
+}

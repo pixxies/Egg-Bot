@@ -64,7 +64,7 @@ module.exports = {
                 embeds.push(num[i].embed)
 
             }
-            await interaction.editReply({ embeds: embeds, fetchReply: true, ephemeral: true })
+            await interaction.editReply({ embeds: embeds, fetchReply: true })
 
         } else {
 

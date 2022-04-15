@@ -14,7 +14,7 @@ module.exports = {
                 .setTitle(`:egg: Loading the leaderboard`)
                 .setDescription(`<a:typing:797843482130644992> *\`Please be patient, this might take a moment\`*`)
                 .setColor(interaction.client.colors.red)
-            await interaction.reply({ embeds: [loading], fetchReply: true, ephemeral: true })
+            await interaction.reply({ embeds: [loading], fetchReply: true })
 
             // Add rank to contestant objects
             let lb_data_res = lb_data.rows

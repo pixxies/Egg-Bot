@@ -4,7 +4,7 @@ module.exports = {
 
         client.user.setPresence({
             activities: [{
-                name: "in the Egg Hunt | /basket",
+                name: "Egg Hunt | /basket",
                 type: 'COMPETING'
             }],
             status: 'online'

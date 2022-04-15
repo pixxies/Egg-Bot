@@ -60,14 +60,11 @@ const rest = new REST({ version: '9' }).setToken(token);
         console.log('Started refreshing slash commands...');
 
         await rest.put(
-            Routes.applicationGuildCommands('964056498609213532', '950670901937078303'), { body: commands }
-        );
-        await rest.put(
             Routes.applicationGuildCommands('964056498609213532', '963063606814048306'), { body: commands }
         );
-        // await rest.put(
-        //     Routes.applicationGuildCommands('964056498609213532', '264445053596991498'), { body: commands }
-        // );
+        await rest.put(
+            Routes.applicationGuildCommands('964056498609213532', '264445053596991498'), { body: commands }
+        );
 
         console.log(`Successfully reloaded ${commands.length} slash commands!`);
 

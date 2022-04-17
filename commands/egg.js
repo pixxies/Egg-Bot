@@ -60,6 +60,8 @@ module.exports = {
                         .setTimestamp()
                     interaction.reply({ embeds: [newegg], ephemeral: true })
 
+                    if (basket.length === 25) interaction.member.roles.add('965100574225883157')
+
                 }
 
             } else {

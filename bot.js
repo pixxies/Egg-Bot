@@ -1,3 +1,5 @@
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! YOU WON'T FIND ANSWERS HERE, GOOD TRY. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 const Discord = require('discord.js');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');

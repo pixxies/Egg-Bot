@@ -21,8 +21,6 @@ module.exports = {
 
         if (Math.floor(Date.now() / 1000) > interaction.client.event.end) return interaction.reply({ embeds: [ended], ephemeral: true })
 
-        if (interaction.member.joinedTimestamp > 1649451600000) return interaction.reply({ content: "Sorry, you joined too recently to play! :(", ephemeral: true })
-
         let answer = interaction.options.get('id').value
 
         let found = eggs.find(({ egg_location }) => egg_location === answer);

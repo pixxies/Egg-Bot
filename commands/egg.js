@@ -76,6 +76,8 @@ module.exports = {
                     .setTimestamp()
                 interaction.reply({ embeds: [newegg], ephemeral: true })
 
+                interaction.member.roles.add('965563014310936626') // Add participant role
+
             }
 
         } else {
